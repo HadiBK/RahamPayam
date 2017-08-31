@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/TabLiqGar
+cd $HOME/RahamPayam
 function print_logo() {
 	echo -e "\033[38;5;600m"
 	echo -e "          CerNer Team"
@@ -19,5 +19,5 @@ if [ ! -f ./tg ]; then
    echo -e "                        CerNer Team                           "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
-curl "https://api.telegram.org/bot434817124:AAGeKc_Ls22BAr_8AEDylMZl_VKBXaIY2iU/sendmessage" -F "chat_id=-" -F "text= TabLiqGar IS NOW RUNNING "
+curl "https://api.telegram.org/bot434817124:AAGeKc_Ls22BAr_8AEDylMZl_VKBXaIY2iU/sendmessage" -F "chat_id=-" -F "text= RahamPayam IS NOW RUNNING "
    ./tg -s ./bot/tabchi.lua
